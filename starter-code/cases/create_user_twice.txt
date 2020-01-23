@@ -1,0 +1,10 @@
+# create same user twice
+#
+create user1 user1 100
+create user1 user1 200
+quit
+*
+Created user user1
+Failed to create user
+Goodbye
+*

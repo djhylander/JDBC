@@ -1,0 +1,24 @@
+DROP TABLE IF EXISTS USERS;
+DROP TABLE IF EXISTS RESERVATIONS;
+ALTER TABLE FLIGHTS ADD num_booked INT NOT NULL DEFAULT(0);
+GO
+
+CREATE TABLE USERS (
+	username VARCHAR(20), 
+	password VARCHAR(20),
+	balance INT,
+	PRIMARY KEY (username)
+	);
+
+CREATE TABLE RESERVATIONS (
+	rid INT NOT NULL,
+	username VARCHAR(20),
+	trip_date INT,
+	fid1 INT,
+	fid2 INT,
+	cost INT,
+	paid INT NOT NULL DEFAULT(0),
+	cancelled INT NOT NULL DEFAULT(0),
+	PRIMARY KEY (rid),
+	FOREIGN KEY(username) REFERENCES USERS(username),
+	);

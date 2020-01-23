@@ -1,0 +1,16 @@
+# book a full flight
+#
+create user1 user1 10000
+login user1 user1
+search "Seattle WA" "Dallas TX" 0 3 1
+book 0
+quit
+*
+Created user user1
+Logged in as user1
+Itinerary 0: 2 flight(s), 230 minutes
+ID: 1038743 Day: 3 Carrier: WN Number: 1181 Origin: Seattle WA Dest: Denver CO Duration: 134 Capacity: 18 Price: 396
+ID: 1039697 Day: 3 Carrier: WN Number: 41 Origin: Denver CO Dest: Dallas TX Duration: 96 Capacity: 0 Price: 199
+Booking failed
+Goodbye
+*

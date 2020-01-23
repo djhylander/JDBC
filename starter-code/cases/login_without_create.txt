@@ -1,0 +1,8 @@
+# login without creating login
+#
+login user1 user1
+quit
+*
+Login failed
+Goodbye
+*

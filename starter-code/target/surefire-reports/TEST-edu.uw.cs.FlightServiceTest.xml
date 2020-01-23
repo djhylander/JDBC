@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="33" failures="0" name="edu.uw.cs.FlightServiceTest" time="244" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+9"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/dhyla/OneDrive/Desktop/CSE 414/hw6/cse414-hw6-djh36/starter-code"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\dhyla\OneDrive\Desktop\CSE 414\hw6\cse414-hw6-djh36\starter-code"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="13.0.1+9"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\dhyla\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Users/dhyla/OneDrive/Desktop/CSE 414/hw6/apache-maven-3.6.2/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-13.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\dhyla\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dhyla\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\ProgramData\Anaconda3\Library\bin\graphviz;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files (x86)\Graphviz2.38\bin\dot.exe;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files\PuTTY;C:\Program Files (x86)\PuTTY;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\PharosSystems\Core;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\dhyla\AppData\Local\Microsoft\WindowsApps;C:\Users\dhyla\Anaconda3;C:\Users\dhyla\Anaconda3\Scripts;C:\Program Files (x86)\Graphviz2.38\bin;C:\Modeltech_pe_edu_10.4a\win32pe_edu;C:\Users\dhyla\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-13.0.1\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;C:\Users\dhyla\.swc\lib\make\bin;C:\Users\dhyla\.swc\lib\nano;C:\Users\dhyla\.swc\lib\sqlite;C:\Users\dhyla\.swc\bin;C:\Users\dhyla\OneDrive\Desktop\CSE 414\hw6\apache-maven-3.6.2\bin;."/>
+    <property name="maven.conf" value="C:/Users/dhyla/OneDrive/Desktop/CSE 414/hw6/apache-maven-3.6.2/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Users/dhyla/OneDrive/Desktop/CSE 414/hw6/apache-maven-3.6.2/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\dhyla"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="dhyla"/>
+    <property name="java.class.path" value="C:/Users/dhyla/OneDrive/Desktop/CSE 414/hw6/apache-maven-3.6.2/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-13.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Users\dhyla\OneDrive\Desktop\CSE 414\hw6\apache-maven-3.6.2"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[0]" time="8.905"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[1]" time="13.119"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[2]" time="13.567"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[3]" time="6.274"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[4]" time="6.917"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[5]" time="7.214"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[6]" time="8.134"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[7]" time="7.53"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[8]" time="15.925"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[9]" time="7.61"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[10]" time="3.539"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[11]" time="4.034"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[12]" time="3.639"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[13]" time="3.038"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[14]" time="4.168"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[15]" time="3.899"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[16]" time="3.934"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[17]" time="3.347"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[18]" time="7.469"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[19]" time="7.772"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[20]" time="7.226"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[21]" time="7.149"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[22]" time="7.43"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[23]" time="6.508"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[24]" time="7.035"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[25]" time="6.896"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[26]" time="7.041"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[27]" time="6.741"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[28]" time="6.454"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[29]" time="14.13"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[30]" time="7.063"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[31]" time="13.824"/>
+  <testcase classname="edu.uw.cs.FlightServiceTest" name="runTest[32]" time="6.469"/>
+</testsuite>

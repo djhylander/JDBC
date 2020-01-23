@@ -1,0 +1,17 @@
+# session 1
+# create user in two different sessions
+#
+create user1 user1 100
+quit
+*
+Created user user1
+Goodbye
+*
+# session 2 fails because user already created
+#
+create user1 user1 100
+quit
+*
+Failed to create user
+Goodbye
+*
